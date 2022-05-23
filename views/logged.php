@@ -1,8 +1,4 @@
-<?php
-
-require '../control/logged.php';
-
-?>
+<?php require '../control/logged.php'; ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -17,11 +13,10 @@ require '../control/logged.php';
 <body>
 
     <?php if(!empty($user)): ?>
-        <br>Welcome. <?= $user['user'] ?>
-        <br>Email. <?= $user['email'] ?>
-        <br>You are Succesfully logged in 
+        <br>Bienvenid. <?= $user['user'] ?>
+        <br>Correo electrónico. <?= $user['email'] ?>
+        <br>Has accedido exitosamente. 
         <a href="/LS_sessions/control/logout.php">Logout</a>
-        <?php else: ?>
     <?php endif; ?>
 
 </body>

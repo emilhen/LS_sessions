@@ -124,6 +124,7 @@ a{color:inherit;text-decoration:none}
 
 .login-form .group .button{
 	color:var(--colorFondo);
+	transition: all 300ms;
 }
 .login-form .group .input,
 .login-form .group .button{
@@ -207,6 +208,7 @@ a{color:inherit;text-decoration:none}
 	color: var(--colorTitulos);
 	text-transform:uppercase;
 	padding: 2px;
+	transition: all 300ms;
 }
 
 .foot-lnk:hover{
@@ -246,6 +248,7 @@ a{color:inherit;text-decoration:none}
 	margin-left: 12px;
 	margin-right: 12px;
 	width: 50px;
+	transition: all 300ms;
 }
 
 .icons img:hover{
