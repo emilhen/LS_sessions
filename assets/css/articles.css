@@ -1,0 +1,43 @@
+:root{
+	--colorTitulos: #80ED99;
+	--colorFondo: #22577A;
+	--colorTextoEntrada: #08283e;
+	--colorBackgroundGeneral: radial-gradient(circle, rgba(34,87,122,1) 18%, rgba(128,237,153,1) 100%);
+	--colorPlaceholder: #08283e54;
+}
+
+*{
+    font-family: 'Fredoka One', cursive;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: var(--colorBackgroundGeneral)
+}
+
+.main{
+    width: 45%;
+    margin: 10px;
+    color: var(--colorTitulos);
+    background: var(--colorTextoEntrada);
+    padding: 20px 40px 20px 40px;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 50px;
+}
+
+.main h3, .main h1, .main li::first-line, .references h3{
+    color: #fff;
+    text-align: center;
+}
+
+.main li{
+    list-style: none;
+}
+
+.references a{
+    text-decoration: none;
+    color: #fff;
+}
