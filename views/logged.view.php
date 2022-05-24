@@ -33,23 +33,22 @@
     <?php endif; ?>
 
     <?php
-    require('js.view.php');
-    // $articleNumber = random_int(1, 3);
-    // switch ($articleNumber) {
-    //     case 1:
-    //         require('js.view.php');
-    //         break;
-    //     case 2:
-    //         require('html.view.php');
-    //         break;
-    //     case 3:
-    //         require('php.view.php');
-    //         break;
+    $articleNumber = random_int(1, 3);
+    switch ($articleNumber) {
+        case 1:
+            require('js.view.php');
+            break;
+        case 2:
+            require('html.view.php');
+            break;
+        case 3:
+            require('php.view.php');
+            break;
 
-    //     default:
-    //         # code...
-    //         break;
-    // }
+        default:
+            # code...
+            break;
+    }
     ?>
 </body>
 

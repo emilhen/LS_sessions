@@ -5,18 +5,6 @@ require 'database.php';
 
 if (isset($_SESSION['user_id'])) {
 
-    $records = $conn->prepare('SELECT id, sessionCounter FROM users WHERE id = :id');
-    $records->bindParam(':id', $_SESSION['user_id']);
-    $records->execute();
-    $results = $records->fetch(PDO::FETCH_ASSOC);
-
-    $contador = $results['sessionCounter'] + 1;
-
-    $sql = "UPDATE users SET sessionCounter = '$contador' WHERE id = :id";
-    $stmt = $conn->prepare($sql);
-    $stmt->bindParam(':id', $_SESSION['user_id']);
-    $stmt->execute();
-
     $records = $conn->prepare('SELECT id, user, email, password, sessionCounter FROM users WHERE id = :id');
     $records->bindParam(':id', $_SESSION['user_id']);
     $records->execute();
