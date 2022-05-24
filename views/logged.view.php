@@ -15,6 +15,7 @@
     <?php if(!empty($user)): ?>
         <br>Bienvenid. <?= $user['user'] ?>
         <br>Correo electrónico. <?= $user['email'] ?>
+        <br>Inicio de accesos. <?= $user['sessionCounter'] ?>
         <br>Has accedido exitosamente. 
         <a href="/LS_sessions/control/logout.php">Logout</a>
     <?php endif; ?>

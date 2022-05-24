@@ -19,9 +19,10 @@
         if($results){
             if(count($results)>0 && password_verify($_POST['password'], $results['password'])){
                 $_SESSION['user_id'] = $results['id'];
-                header('Location: /LS_sessions/views/logged.php');
-            }else $errorMessage = "LO SENTIMOS, LAS CREDENCIALES NO COINCIDEN";
+                header('Location: /LS_sessions/views/logged.view.php');
+                exit();
+            }else $errorMessage = "*LO SENTIMOS, LAS CREDENCIALES NO COINCIDEN";
 
-        }else $errorMessage = "USUARIO NO EXISTENTE";
+        }else $errorMessage = "*USUARIO NO EXISTENTE";
         
     }
