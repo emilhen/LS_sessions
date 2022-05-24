@@ -1,0 +1,43 @@
+:root{
+	--colorTitulos: #80ED99;
+	--colorFondo: #22577A;
+	--colorTextoEntrada: #08283e;
+    --colorTexto2: #FFFFFF;
+	--colorBackgroundGeneral: radial-gradient(circle, rgba(34,87,122,1) 18%, rgba(128,237,153,1) 100%);
+	--colorPlaceholder: #08283e54;
+}
+
+.userData {
+    width: 97%;
+    font-size: 1.5rem;
+    height: 90px;
+    background-color: #08283e;
+    margin: 10px;
+    padding: 0px 20px 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+    align-items: center;
+    color: var(--colorTexto2);
+}
+
+.userData a{
+    
+    color: var(--colorTextoEntrada);
+    text-decoration: none;
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px 30px 10px 30px;
+    background: var(--colorTitulos);
+    transition: all 300ms;
+}
+
+.userData a:hover{
+    color: var(--colorTitulos);
+    background-color: var(--colorTextoEntrada);
+    border: 3px solid var(--colorTitulos);
+}
+
+
+
