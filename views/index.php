@@ -11,19 +11,17 @@ require '../control/verifyData.php';
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- <meta http-equiv='refresh' content='url=/LS_sessions/views'> -->
+
+	
+	<link rel="stylesheet" href="/LS_sessions/assets/fontawesome/css/all.css">
 	<!-- Enlaces a estilos CSS -->
 	<link rel="stylesheet" type="text/css" href="/LS_sessions/assets/css/style.css">
-	<link rel="stylesheet" href="/LS_sessions/assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="/LS_sessions/assets/bootstrap/bootstrap.min.css">
-
 	<!-- Fuentes de google -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> -->
 	<!-- Iconos de Font Awesome -->
-	<script src="https://kit.fontawesome.com/ae46b0ba61.js" crossorigin="anonymous"></script>
+	<!-- <script src="https://kit.fontawesome.com/ae46b0ba61.js" crossorigin="anonymous"></script> -->
 
 	<title>Bienvenido</title>
 </head>
@@ -106,14 +104,12 @@ require '../control/verifyData.php';
 	</div>
 
 	<!-- Enlaces a scripts JavaScript -->
-	<!-- <script src="/LS_sessions/control/js/jquery.validate.min.js"></script> -->
-	<!-- <script src="/LS_sessions/control/js/jquery.validate.js"></script>-->
-
-
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
 	<script src="/LS_sessions/control/js/validateLogIn.js"></script>
 	<script src="/LS_sessions/control/js/validateSignUp.js"></script>
+	<script src="/LS_sessions/assets/fontawesome/js/all.js"></script>
+	
 </body>
 
 </html>

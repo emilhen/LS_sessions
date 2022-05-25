@@ -14,7 +14,7 @@ body{
 
 *{
 	font-family: 'Fredoka One', cursive;
-	font-size: 15px;
+	font-size: 1rem;
 	letter-spacing: 1px;
 }
 
@@ -26,8 +26,6 @@ a{color:inherit;text-decoration:none}
 .login-wrap{
 	width:100%;
 	margin:auto;
-	/* margin-top: 20px;
-	margin-bottom: 20px; */
 	width: 40%;
 	height: 640px;
 	min-width: 400px;
@@ -68,7 +66,7 @@ a{color:inherit;text-decoration:none}
 	cursor: pointer;
 }
 .login-html .tab{
-	font-size:22px;
+	font-size:1.5rem;
 	margin-right:15px;
 	padding-bottom:5px;
 	margin:0 15px 10px 0;
@@ -91,9 +89,9 @@ a{color:inherit;text-decoration:none}
 	position: relative;
 }
 
-.login-form .group i{
+.fa-user, .fa-lock, .fa-at{
 	position: absolute;
-	top: 35px;
+	top: 33px;
 	left: 20px;
 	color: #08283e;
 }
@@ -107,9 +105,9 @@ a{color:inherit;text-decoration:none}
 }
 
 .login-form .group .input{
+	margin-top: 5px;
 	color: var(--colorTextoEntrada);
 	padding-left: 45px !important;
-	
 }
 
 .login-form .group .input::placeholder{
@@ -151,34 +149,6 @@ a{color:inherit;text-decoration:none}
 	color: var(--colorTitulos);
 }
 
-/* .login-form .group label .icon{
-	width:15px;
-	height:15px;
-	border-radius:2px;
-	position:relative;
-	display:inline-block;
-	background:rgba(255,255,255,.1);
-}
-.login-form .group label .icon:before,
-.login-form .group label .icon:after{
-	content:'';
-	width:10px;
-	height:2px;
-	background:var(--colorFondo);
-	position:absolute;
-	transition:all .2s ease-in-out 0s;
-}
-.login-form .group label .icon:before{
-	left:3px;
-	width:5px;
-	bottom:6px;
-	transform:scale(0) rotate(0);
-}
-.login-form .group label .icon:after{
-	top:6px;
-	right:0;
-	transform:scale(0) rotate(0);
-} */
 .login-form .group .check:checked + label{
 	color:var(--colorFondo);
 }
@@ -255,3 +225,13 @@ a{color:inherit;text-decoration:none}
 	bottom: 20px;
 	width: 55px;
 }
+
+/* latin */
+@font-face {
+	font-family: 'Fredoka One';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(/LS_sessions/assets/fonts/k3kUo8kEI-tA1RRcTZGmTlHGCac.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }

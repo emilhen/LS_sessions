@@ -18,17 +18,13 @@
 
     <?php if (!empty($user)) : ?>
         <div class="userData">
-            <div>
-                Usuario: <?= $user['user'] ?>
-            </div>
+            <div>Usuario: <?= $user['user'] ?></div>
 
             <div>Correo electrónico: <?= $user['email'] ?></div>
-            <div>Inicio de accesos: <?= $user['sessionCounter'] ?></div>
+            <div>Inicio de sesión # <?= $user['sessionCounter'] ?></div>
             <div>
                 <a href="/LS_sessions/control/logout.php">Logout</a>
             </div>
-            
-
         </div>
     <?php endif; ?>
 
